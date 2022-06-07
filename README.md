@@ -9,7 +9,7 @@ or
 ```
 git clone https://github.com/Nkyoku/yolox-training.git
 cd yolox-training
-git submodule update --init --recursive`
+git submodule update --init --recursive
 ```
 
 2. Set default runtime of Docker to `nvidia`.  
@@ -30,6 +30,9 @@ git submodule update --init --recursive`
 3. Execute `install_xxxx.sh`
   - Jetson with L4T R34.1.0
     `./install_l4t_r34.1.0.sh`
+
+4. Download pretrained network  
+  for example `wget https://github.com/Megvii-BaseDetection/YOLOX/releases/download/0.1.1rc0/yolox_nano.pth`
 
 ## Training
 1. Edit dataset path and hyper parameters by editing `training.bash` and corresponding model's `YOLOX/exps/default/yolox_xxxx.py`.
