@@ -28,8 +28,10 @@ git submodule update --init --recursive
 ```
 
 3. Execute `install_xxxx.sh`
-  - Jetson with L4T R34.1.0
+  - Jetson with L4T R34.1.0  
     `./install_l4t_r34.1.0.sh`
+  - x86_64
+    `./install_x86_64.sh`
 
 4. Download pretrained network  
   for example `wget https://github.com/Megvii-BaseDetection/YOLOX/releases/download/0.1.1rc0/yolox_nano.pth`
